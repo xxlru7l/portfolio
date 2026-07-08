@@ -104,6 +104,15 @@ $(function(){
         .to(".sec02 .text .step03", {opacity:0, yPercent: 100})
         .to(".sec02 .text .step03", {opacity:1, yPercent: -50, duration: 2})
         .to(".sec02 .text .step03", {opacity:0, yPercent: -100})
+        .to(".sec02 .text .step04", {opacity:0, yPercent: 100})
+        .to(".sec02 .text .step04", {opacity:1, yPercent: -50, duration: 2})
+        .to(".sec02 .text .step04", {opacity:0, yPercent: -100})
+        .to(".sec02 .text .step05", {opacity:0, yPercent: 100})
+        .to(".sec02 .text .step05", {opacity:1, yPercent: -50, duration: 2})
+        .to(".sec02 .text .step05", {opacity:0, yPercent: -100})
+        .to(".sec02 .text .step06", {opacity:0, yPercent: 100})
+        .to(".sec02 .text .step06", {opacity:1, yPercent: -50, duration: 2})
+        .to(".sec02 .text .step06", {opacity:0, yPercent: -100})
         .to(".sec02 .img", {opacity:0, duration: 1})
         .set({}, {}, "+=1") // add end time
 
