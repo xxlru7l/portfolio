@@ -142,7 +142,10 @@ section { min-height: 100vh; position: relative; }
 .sec03 .pf-list ul { display: flex; flex-wrap: wrap; margin: 0 -10rem; } 
 .sec03 .pf-list ul li { width: 50%; padding: 0 10rem; margin-bottom: 15rem;}
 .sec03 .pf-list ul li .box { position: relative; }
-.sec03 .pf-list ul li .award { position: absolute; background: url('/img/ico-mark.png')no-repeat center / cover; top: 2%; right: 3%; z-index: 1; width: 100px; height: 129px;}
+.sec03 .pf-list ul li .award { position: absolute; z-index: 1; top: 2%; right: 3%;}
+.sec03 .pf-list ul li .award + .award { top: 4%; right: 25%; }
+.sec03 .pf-list ul li .award01 { background: url('/img/ico-mark.png')no-repeat center / cover; z-index: 1; width: 100px; height: 129px;}
+.sec03 .pf-list ul li .award02 { background: url('/img/ico-mark2.png')no-repeat center / cover; z-index: 1; width: 135px; height: 96px;}
 .sec03 .pf-list ul li:nth-child(2n) { padding-top: 20rem; } 
 .sec03 .pf-list ul li .img { position: relative; width: 100%; padding-bottom: 100%; } 
 .sec03 .pf-list ul li .img > div { position: absolute; width: 100%; height: 100%; top: 0; left: 0; bottom: 0; right: 0; background-size: cover; background-repeat: no-repeat; background-position: center; } 
@@ -173,6 +176,13 @@ section { min-height: 100vh; position: relative; }
 }
 
 
+
+
+@media (max-width:1400px) {
+  .sec03 .pf-list ul li .award02 { 
+      right: 35%; 
+  }
+}
 
 
 
@@ -313,6 +323,12 @@ section { min-height: 100vh; position: relative; }
         right: 1%; 
         width: 60px; 
         height: 78px;
+    }
+    .sec03 .pf-list ul li .award02 {
+        top: 4%;
+        right: 20%;
+        width: 75px;
+        height: 54px;
     }
     .sec03 .pf-list ul li .img {
         padding-bottom: 75%;
