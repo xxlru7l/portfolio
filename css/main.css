@@ -145,7 +145,7 @@ section { min-height: 100vh; position: relative; }
 .sec03 .pf-list ul li .award { position: absolute; z-index: 1; top: 2%; right: 3%;}
 .sec03 .pf-list ul li .award + .award { top: 4%; right: 25%; }
 .sec03 .pf-list ul li .award01 { background: url('../img/ico-mark.png')no-repeat center / cover; z-index: 1; width: 100px; height: 129px;}
-.sec03 .pf-list ul li .award02 { background: url('/img/ico-mark2.png')no-repeat center / cover; z-index: 1; width: 135px; height: 96px;}
+.sec03 .pf-list ul li .award02 { background: url('../img/ico-mark2.png')no-repeat center / cover; z-index: 1; width: 135px; height: 96px;}
 .sec03 .pf-list ul li:nth-child(2n) { padding-top: 20rem; } 
 .sec03 .pf-list ul li .img { position: relative; width: 100%; padding-bottom: 100%; } 
 .sec03 .pf-list ul li .img > div { position: absolute; width: 100%; height: 100%; top: 0; left: 0; bottom: 0; right: 0; background-size: cover; background-repeat: no-repeat; background-position: center; } 
